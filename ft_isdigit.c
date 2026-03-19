@@ -3,17 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mitrakot <mitrakot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mitrakot <mitrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/21 16:11:47 by mitrakot          #+#    #+#             */
-/*   Updated: 2026/02/03 13:41:03 by mitrakot         ###   ########.fr       */
+/*   Created: 2026/02/09 17:31:23 by mitrakot          #+#    #+#             */
+/*   Updated: 2026/02/14 11:25:10 by mitrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit(int	c)
+#include "libft.h"
+
+int	ft_isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
-        return (1);
-    else 
-    return (0);
+		return (1);
+	else
+		return (0);
 }

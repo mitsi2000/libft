@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mitrakot <mitrakot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mitrakot <mitrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/23 08:47:21 by mitrakot          #+#    #+#             */
-/*   Updated: 2026/02/09 14:17:13 by mitrakot         ###   ########.fr       */
+/*   Created: 2026/02/09 17:29:05 by mitrakot          #+#    #+#             */
+/*   Updated: 2026/02/09 17:29:11 by mitrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_atoi(const char *nptr)
 		sign = sign * -1;
 		i++;
 	}
-	if (nptr[i] == '+')
+	else if (nptr[i] == '+')
 		i++;
 	while (nptr[i] >= '0' && nptr[i] <= '9')
 	{

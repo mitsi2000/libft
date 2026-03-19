@@ -3,17 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mitrakot <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mitrakot <mitrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/21 16:24:17 by mitrakot          #+#    #+#             */
-/*   Updated: 2026/01/21 16:24:24 by mitrakot         ###   ########.fr       */
+/*   Created: 2026/02/09 17:31:33 by mitrakot          #+#    #+#             */
+/*   Updated: 2026/02/14 11:25:20 by mitrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+#include "libft.h"
+
+int	ft_isprint(int c)
 {
-    if (c >= 32 && c <= 126)
-        return (1);
-    else
-        return (0);
+	if (c >= 32 && c <= 126)
+		return (1);
+	else
+		return (0);
 }
